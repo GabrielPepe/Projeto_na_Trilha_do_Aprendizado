@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDE09-Multimídias</title>
+</head>
+<body>
+    <h1><font size="16" color="red">Incorporando Multimídias</font></h1>
+    <p>É uma forma comunicação que combina diferentes formas de conteúdo, como texto, áudio imagens, animações ou vídeo em uma única apresentação.<br>Quando precisamos incorporar multimídias utilizamos a tag: &#60iframe&#62</p>
+    <h2>Tag iframe</h2>
+    <h2>Incorporar outro site dentro do site</h2>
+    <iframe src="http://irati.ifpr.edu.br" height="300" width="300"></iframe>
+    <h3>Embutir audio no site</h3>
+    <iframe width="30%" height="30%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1103773870&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/bailaoquefala" title="Bailão Que Fala 🔥" target="_blank" style="color: #cccccc; text-decoration: none;">Bailão Que Fala 🔥</a> · <a href="https://soundcloud.com/bailaoquefala/matue-quer-voar-1" title="Matuê - Quer Voar 🦇" target="_blank" style="color: #cccccc; text-decoration: none;">Matuê - Quer Voar 🦇</a></div>
+    <h3>Incorporar vídeos ao site</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FsDA0LRBsrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>Tag Vídeo</h2>
+    <video poster="/midias/video/Bike.jpg" controls>
+    <source src="/midias/video/_Bike.mp4" type="video/mp4">
+    <source src="/midias/video/Bike.webm" type="video/webm">
+    <source src="midias/video/Bike.ogv" type="video/ogg">
+    </video>
+
+    <h2>Tag de audio</h2>
+    <audio preload="metadata" controls>
+        <source src="midias/audio/Hey Sailor - Letter Box.mp3" type="audio/mp3"> 
+        <source src="midias/audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+        <source src="midias/audio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
+    </audio>
+
+    <h2>Tag picture</h2>
+    <picture>
+        <source media="(max-width:500px)" srcset="midias/im/bike_110.jpg">
+        <source media="(max-width:700px)" srcset="midias/im/bike_320.jpg">
+        <source media="(max-width:1000px)" srcset="midias/im/bike_640.jpg">
+        <img src="midias/img/bike_full.jpg" alt="por do sol">
+    </picture>
+
+</body>
+</html>
