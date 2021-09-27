@@ -17,6 +17,27 @@
     <h3>Incorporar vídeos ao site</h3>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/FsDA0LRBsrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+    <h2>Tag Vídeo</h2>
+    <video poster="/midias/video/Bike.jpg" controls>
+    <source src="/midias/video/_Bike.mp4" type="video/mp4">
+    <source src="/midias/video/Bike.webm" type="video/webm">
+    <source src="midias/video/Bike.ogv" type="video/ogg">
+    </video>
+
+    <h2>Tag de audio</h2>
+    <audio preload="metadata" controls>
+        <source src="midias/audio/Hey Sailor - Letter Box.mp3" type="audio/mp3"> 
+        <source src="midias/audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+        <source src="midias/audio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
+    </audio>
+
+    <h2>Tag picture</h2>
+    <picture>
+        <source media="(max-width:500px)" srcset="midias/im/bike_110.jpg">
+        <source media="(max-width:700px)" srcset="midias/im/bike_320.jpg">
+        <source media="(max-width:1000px)" srcset="midias/im/bike_640.jpg">
+        <img src="midias/img/bike_full.jpg" alt="por do sol">
+    </picture>
 
 </body>
 </html>
